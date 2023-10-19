@@ -1,0 +1,10 @@
+.App{
+    padding: 0px;
+    background-color: whitesmoke;
+    height: 100vh;
+}
+.card-container{
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}

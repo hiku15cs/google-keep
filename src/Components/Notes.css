@@ -1,0 +1,39 @@
+
+.container{
+    margin: auto;
+    width: 300px;
+    box-shadow: 2px 2px 3px #acabab;  
+    border-radius: 5px;
+    background-color: white;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+input,textarea{
+    border: none;
+    outline: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+}
+input{
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+textarea{
+    font-size: 14px;
+}
+button.add{
+    cursor: pointer;
+    border: none;
+    padding: 5px;
+    width: 40px;
+    border-radius: 5px;
+    background-color: rgb(54, 154, 241);
+    color: white;
+    margin-top: 5px;
+    margin-left: 240px;
+    font-size: 20px;
+}
